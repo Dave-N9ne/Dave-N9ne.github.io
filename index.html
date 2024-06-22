@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container flex-x">
+                <a href="#" class="header__logo">Kelvin</a>
+            <nav class="header__nav nav" id="nav">
+                <ul class="nav__list flex-x">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="header__button" id="header-btn">
+                <img id="header-btn-img" src="./img/icon/Burger-button.svg" alt="">
+                <!-- <div class="header__burger">
+                    <span></span>
+                </div> -->
+            </button>
+            
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container flex-x">
+                <article class="hero__kelvin kelvin " data-aos="fade-up">
+                    <h1 class="kelvin__title main-title">Kelvin Kramer <span class="kelvin__title_s">Designer & Developer</span></h1>
+                    <p class="kelvin__desc">
+                        I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.
+                    </p>
+                </article>
+                <div class="hero__item" data-aos="fade-left">
+                    <img src="./img/hero-img.png" alt="Kelvin thinking about something and looking up" class="hero__img">
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container grid">
+                <article class="services__wrapper" data-aos="fade-down">
+                    <div class="services__content services-content content content__ui-ux">
+                        <h4 class="content__title">UI/UX Design</h4>
+                        <p class="content__desc">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                </article>
+                <article class="services__wrapper" data-aos="fade-down">
+                    <div class="services__content services-content content content__dev">
+                        <h4 class="content__title">Development</h4>
+                        <p class="content__desc">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                </article>
+                <article class="services__wrapper" data-aos="fade-down">
+                    <div class="services__content services-content content content__software">
+                        <h4 class="content__title">software testing</h4>
+                        <p class="content__desc">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title h2-title">Portfolio</h2>
+                <article class="portfolio__card portfolio-card card" data-aos="flip-up">
+                    <div class="card__item center-x">
+                        <img src="./img/fashion-store-img.jpg" alt="Fashion store's website" class="card__img">
+                    </div>
+                    <a href="#" class="card__link center-x">Online fashion store - Homepage</a>
+                </article>
+                <article class="portfolio__card portfolio-card card" data-aos="flip-up">
+                    <div class="card__item center-x">
+                        <img src="./img/reebok-img.jpg" alt="Reebok's website" class="card__img">
+                    </div>
+                    <a href="#" class="card__link center-x">Reebok Store - Concept</a>
+                </article>
+                <article class="portfolio__card portfolio-card card" data-aos="flip-up">
+                    <div class="card__item center-x">
+                        <img src="./img/braun-img.jpg" alt="Braun's website" class="card__img">
+                    </div>
+                    <a href="#" class="card__link center-x">Braun Landing Page - Concept</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <article class="footer__contacts footer-contacts contacts">
+                <h2 class="contacts__title h2-title">Contacts</h2>
+                <p class="contacts__desc" data-aos="fade-down">
+                    Want to know more or just chat? You are welcome!
+                </p>
+                <div class="contacts__btn center-y" data-aos="fade-down">
+                    <a href="#" class="contacts__link">Send message</a>
+                </div>
+                <div class="contacts__socials socials flex-x" data-aos="zoom-in">
+                    <a href="#" class="socials__link">
+                        <img src="./img/icon/LinkedIn-icon.svg" alt="LinkedIn logo" class="socials__img">
+                    </a>
+                    <a href="#" class="socials__link">
+                        <img src="./img/icon/Instargam-icon.svg" alt="Instargam logo" class="socials__img">
+                    </a>
+                    <a href="#" class="socials__link">
+                        <img src="./img/icon/Behance-icon.svg" alt="Behance logo" class="socials__img">
+                    </a>
+                    <a href="#" class="socials__link">
+                        <img src="./img/icon/Dribble-icon.svg" alt="Dribble logo" class="socials__img">
+                    </a>
+                </div>
+                <p class="contacts__bottom-text" data-aos="fade-up">Like me on
+                    <br>LinkedIn, Instagram, Behance, Dribble</p>
+            </article>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

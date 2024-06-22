@@ -1,0 +1,35 @@
+.services {
+    margin-bottom: 90px;
+    padding: 90px 0;
+}
+.services__wrapper {
+    position: relative;
+}
+.content {
+    padding-top: 98px;
+}
+.content__ui-ux::before {
+    content: url(../img/icon/ui-ux-design-icon.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content__dev::before {
+    content: url(../img/icon/development-icon.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content__software::before {
+    content: url(../img/icon/software-testing-icon.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content__title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+

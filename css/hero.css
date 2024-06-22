@@ -1,0 +1,12 @@
+.hero .container {
+    justify-content: space-between;
+}
+.hero__kelvin {
+    margin-top: 124px;
+    max-width: 500px;
+}
+.main-title {
+    font-size: 44px;
+    line-height: 1.333;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+.footer {
+    font-size: var(--big-font-size);
+}
+.footer__contacts {
+    margin: 0 auto;
+    padding: 90px 0;
+    width: clamp(314px, 100%, 342px);
+}
+.contacts__title {
+    margin-bottom: 40px;
+    line-height: 51px;
+}
+.contacts__desc {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.contacts__btn {
+    margin: 0 auto 80px;
+    padding: 7px 22.5px;
+    width: 180px;
+    height: 42px;
+    border-radius: 1em / 50%;
+    background-color: #000;
+}
+.contacts__link {
+    color: var(--white-color);
+}
+.contacts__socials {
+    margin-bottom: 40px;
+}
+.socials {
+    justify-content: space-between;
+}
+.contacts__bottom-text {
+    text-align: center;
+    font-size: var(--font-size);
+}
